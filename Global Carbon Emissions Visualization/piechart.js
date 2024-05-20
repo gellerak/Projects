@@ -25,8 +25,7 @@ class Piechart {
         this.svg = this.div.append('svg')
             .attr('width', '100%')
             .attr('height', '100%')
-            .append("g")
-            // .attr("transform", `translate(${this.width / 2}, ${this.height / 2})`);
+            .append("g");
 
         // use these for interactions
         this.countryChoice = "WORLD";
