@@ -2,9 +2,6 @@ class CarbonMap
 {
     constructor(con, root)
     {
-        // TODO: //
-        // hover over interaction
-
         // Changed everything to use the "this" keyword so that it would work.
         // but if you do that you have to do like .then(data => {}) instead of .then(function(data)) 
         // aka use the => for functions !!
