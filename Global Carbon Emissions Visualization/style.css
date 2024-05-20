@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+div {
+    float: left;
+    border: solid;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed';
+    background-color: white;
+}
+
+h1 {
+    color: #eb4034;
+    font-family: 'Roboto Condensed';
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Condensed';
+    margin: auto;
+    text-align: center;
+}
+
+.main {
+    margin: 70px;
+    margin-left: 180px;
+}
+
+.custom_button {
+    padding: 6px;
+    flex: auto;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-family: 'Roboto Condensed';
+}
+
+.custom_button:hover {
+    background-color: orange;
+    transition: ease-in 0.1s;
+}
+
+.custom_dropdown {
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    flex-direction: column;
+    margin: 3px;
+    padding: 1px;
+}
+
+.interaction-controls  {
+    background-color: rgb(240, 240 , 240);
+    padding: 20px;
+}
