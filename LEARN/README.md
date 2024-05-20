@@ -9,4 +9,4 @@ Team Members
 
 # Project Description
 
-Add a brief description here.
+LEARN is a dynamic virtual flashcard program tailored for students seeking an ad-free and accessible studying experience. Developed using Java and powered by Maven, LEARN offers an intuitive interface for creating personalized flashcards and leveraging them across various study activities, including quizzes. 
